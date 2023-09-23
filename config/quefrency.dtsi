@@ -18,7 +18,7 @@
      * combination of PCBs can have keys in different locations based on configuration.
      */
     default_transform: keymap_transform_0 {
-        compatible = "zmk,matrix-transform";
+        compatible = "macro_quefrency";
         columns = <16>;
         rows = <6>;
         map = <
