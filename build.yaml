@@ -14,6 +14,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: quefrency_l2
+    shield: quefrency_left
   - board: nice_nano_v2
-    shield: quefrency_r2
+    shield: quefrency_right

@@ -1,8 +1,8 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config SHIELD_QUEFRENCY_LEFT_2
-    def_bool $(shields_list_contains,quefrency_l2)
+config SHIELD_QUEFRENCY_LEFT
+    def_bool $(shields_list_contains,quefrency_left)
 
-config SHIELD_QUEFRENCY_RIGHT_2
-    def_bool $(shields_list_contains,quefrency_r2)
+config SHIELD_QUEFRENCY_RIGHT
+    def_bool $(shields_list_contains,quefrency_right)

@@ -2,17 +2,17 @@
 # SPDX-License-Identifier: MIT
 
 
-if SHIELD_QUEFRENCY_LEFT_2
+if SHIELD_QUEFRENCY_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Quefrency2"
+    default "Quefrency"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_QUEFRENCY_LEFT_2 || SHIELD_QUEFRENCY_RIGHT_2
+if SHIELD_QUEFRENCY_LEFT || SHIELD_QUEFRENCY_RIGHT
 
 config ZMK_SPLIT
     default y
