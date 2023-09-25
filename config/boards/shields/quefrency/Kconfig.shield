@@ -1,5 +1,5 @@
 config SHIELD_W_QUEFRENCY_LEFT
-    def_bool $(shields_list_contains,quefrency_left)
+    def_bool $(shields_list_contains,w_quefrency_left)
 
 config SHIELD_W_QUEFRENCY_RIGHT
-    def_bool $(shields_list_contains,quefrency_right)
+    def_bool $(shields_list_contains,w_quefrency_right)

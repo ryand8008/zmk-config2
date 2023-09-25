@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "quefrency.dtsi"
+#include "w_quefrency.dtsi"
 
 &default_transform {
     col-offset = <8>;
@@ -23,8 +23,8 @@
             , <&pro_micro 15 GPIO_ACTIVE_HIGH> // col4 in the schematic
             , <&pro_micro 14 GPIO_ACTIVE_HIGH> // col5 in the schematic
             , <&pro_micro 16 GPIO_ACTIVE_HIGH> // col6 in the schematic
-            , <&pro_micro 10 GPIO_ACTIVE_HIGH> // col7 in the schematic
-            , <&pro_micro 5 GPIO_ACTIVE_HIGH> // col8 in the schematic
+            , <&pro_micro 10 GPIO_ACTIVE_HIGH> // col7 in the schematic 
+            , <&pro_micro 5 GPIO_ACTIVE_HIGH> // col8 in the schematic 
             ;
     };
 };

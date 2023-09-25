@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "quefrency.dtsi"
+#include "w_quefrency.dtsi"
 
 / {
     /* This kscan is for the 60% left half with macro keys the
